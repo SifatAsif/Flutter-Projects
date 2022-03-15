@@ -6,10 +6,10 @@ class Recommendation {
 
 final List<Recommendation> demo_recommendations = [
   Recommendation(
-    name: "Kolapo Obanewa",
-    source: "Linkedin",
+    name: "BSc. in EEE",
+    source: "Bangladesh Army University of Engineering and Technology",
     text:
-        "I have had the pleasure of working with Anwar on two flutter projects and what strikes me the most about his work is his ability to write clean and reusable codes with best practices. He is hardworking and makes it so easy to transcribe ideas into beautiful and testable flutter apps. He is a Flutter/Dart gem and has my highest recommendation",
+        "In the year 2021, I have completed graduation from the dept. of EEE, BAUET. But I was always a computer person. And then I found Flutter interesting, and i decided to give it a go. ",
   ),
   Recommendation(
     name: "Reza Shahbazi",

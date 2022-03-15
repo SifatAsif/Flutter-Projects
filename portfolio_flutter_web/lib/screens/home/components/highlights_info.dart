@@ -22,17 +22,17 @@ class HighLightsInfo extends StatelessWidget {
                   children: [
                     HighLight(
                       counter: AnimatedCounter(
-                        value: 100,
-                        text: '+',
+                        value: 99,
+                        text: '%',
                       ),
-                      label: 'Subscribers',
+                      label: 'Dedicated',
                     ),
                     HighLight(
                       counter: AnimatedCounter(
-                        value: 100,
-                        text: '+',
+                        value: 60,
+                        text: '%',
                       ),
-                      label: 'Subscribers',
+                      label: 'Hardworker',
                     ),
                   ],
                 ),
@@ -44,17 +44,17 @@ class HighLightsInfo extends StatelessWidget {
                   children: [
                     HighLight(
                       counter: AnimatedCounter(
-                        value: 100,
-                        text: '+',
+                        value: 90,
+                        text: '%',
                       ),
-                      label: 'Subscribers',
+                      label: 'Quick Learner',
                     ),
                     HighLight(
                       counter: AnimatedCounter(
-                        value: 100,
-                        text: '+',
+                        value: 101,
+                        text: '%',
                       ),
-                      label: 'Subscribers',
+                      label: 'Human',
                     ),
                   ],
                 ),
@@ -65,31 +65,31 @@ class HighLightsInfo extends StatelessWidget {
               children: [
                 HighLight(
                   counter: AnimatedCounter(
-                    value: 100,
-                    text: '+',
+                    value: 99,
+                    text: '%',
                   ),
-                  label: 'Subscribers',
+                  label: 'Dedication',
                 ),
                 HighLight(
                   counter: AnimatedCounter(
-                    value: 100,
-                    text: '+',
+                    value: 60,
+                    text: '%',
                   ),
-                  label: 'Subscribers',
+                  label: 'Hardworker',
                 ),
                 HighLight(
                   counter: AnimatedCounter(
-                    value: 100,
-                    text: '+',
+                    value: 90,
+                    text: '%',
                   ),
-                  label: 'Subscribers',
+                  label: 'Quick Learner',
                 ),
                 HighLight(
                   counter: AnimatedCounter(
-                    value: 100,
-                    text: '+',
+                    value: 101,
+                    text: '%',
                   ),
-                  label: 'Subscribers',
+                  label: 'Human',
                 ),
               ],
             ),

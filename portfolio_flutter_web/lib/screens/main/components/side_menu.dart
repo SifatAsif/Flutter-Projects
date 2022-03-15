@@ -6,6 +6,7 @@ import 'coding.dart';
 import 'knowledges.dart';
 import 'my_info.dart';
 import 'skills.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class SideMenu extends StatelessWidget {
   const SideMenu({
@@ -68,11 +69,17 @@ class SideMenu extends StatelessWidget {
                       child: Row(
                         children: [
                           Spacer(),
-                          IconButton(
-                            onPressed: () {},
-                            icon: Icon(
-                              Icons.facebook,
-                              color: Colors.grey,
+                          GestureDetector(
+                            child: IconButton(
+                              onPressed: () async {
+                                if (!await launch(
+                                    'https://www.facebook.com/asifat101'))
+                                  throw 'Could not launch url';
+                              },
+                              icon: Icon(
+                                Icons.facebook,
+                                color: Colors.grey,
+                              ),
                             ),
                           ),
                           IconButton(
